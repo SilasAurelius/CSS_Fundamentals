@@ -1,0 +1,81 @@
+html {
+    background-color: rgb(141, 96, 11);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #00bcd4;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h1 em {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: #006064;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+div img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+.intro-text {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    background-color: #ff6f00;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+#Ingredients, #Steps {
+    background-color: #f2f2f2;
+    padding: 15px;
+    border: 3px solid #006064;
+    border-radius: 10px;
+    color: #333;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #006064;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+}
+
+.end-text {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    background-color: #ff6f00;
+    padding: 15px;
+    margin-top: 20px;
+}
