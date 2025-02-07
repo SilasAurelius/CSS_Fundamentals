@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bon Appétit</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="Cooking Recipes: Chocolate Chip Cookies">
+    <meta author="Silas Aurelius Leone">
+    <link rel="stylesheet" type="text/css" href="cookies.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="./chocolatechipcookies.html">Chocolate Chip Cookie Recipe</a></li>
+        </ul>
+    </nav>
+    <h1>Submit A Recipe</h1>
+    <form action="submit" method="POST" id="Submission_Form">
+        <label for="recipe_name">Recipe Name:</label>
+        <input type="text" id="recipe_name" name="recipe_name" required style="width: 70%;"><br><br>
+    
+        <label for="ingredients">Ingredients:</label>
+        <input type="text" id="ingredients" name="ingredients" required style="width: 70%; height: 150px;"><br><br>
+    
+        <label for="instructions">Instructions:</label>
+        <input type="text" id="instructions" name="instructions" required style="width: 70%; height: 150px;"><br><br>
+    
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
